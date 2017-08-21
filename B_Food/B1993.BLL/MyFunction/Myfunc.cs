@@ -30,14 +30,14 @@ namespace B1993.BLL
             #endregion
 
             #region SQL格式
-            string datetime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            //string datetime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
-            B1993.Entity.log model = new B1993.Entity.log();
-            model.Writer = writer;
-            model.Content = content;
-            model.CreateTime = datetime;
-            B1993.BLL.log bll = new B1993.BLL.log();
-            bll.Add(model);
+            //B1993.Entity.log model = new B1993.Entity.log();
+            //model.Writer = writer;
+            //model.Content = content;
+            //model.CreateTime = datetime;
+            //B1993.BLL.log bll = new B1993.BLL.log();
+            //bll.Add(model);
             #endregion
         }
         #endregion

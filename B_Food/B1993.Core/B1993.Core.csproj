@@ -103,18 +103,6 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="COM.Excel, Version=1.1.1606.17082, Culture=neutral">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Lib\COM.Excel.dll</HintPath>
-    </Reference>
-    <Reference Include="OpenSmtp, Version=1.11.0.34196, Culture=neutral">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Lib\OpenSmtp.dll</HintPath>
-    </Reference>
-    <Reference Include="OWC10Chart, Version=1.0.2074.16784, Culture=neutral">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Lib\OWC10Chart.dll</HintPath>
-    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -135,21 +123,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Code\GetTimeID.cs" />
-    <Compile Include="HttpProc.cs" />
-    <Compile Include="JSONUtility.cs" />
-    <Compile Include="MailSender.cs" />
-    <Compile Include="PagingUtil.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Assistant.cs" />
-    <Compile Include="ConfigHelper.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="DataCache.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="DEncrypt\DEncrypt.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -162,19 +135,9 @@
     <Compile Include="DEncrypt\RSACryption.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="INIFile.cs" />
-    <Compile Include="MessageBox.cs">
+    <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PageValidate.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="RMB.cs" />
-    <Compile Include="StringPlus.cs" />
-    <Compile Include="TimeParser.cs" />
-    <Compile Include="UrlOper.cs" />
-    <Compile Include="WeChat\RequestGP.cs" />
-    <Compile Include="WeChat\SHA1.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -193,6 +156,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>

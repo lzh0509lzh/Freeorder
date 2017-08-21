@@ -15,3 +15,14 @@ C:\Users\Administrator\Desktop\Bamboo\B1993.BusinessRules\bin\Debug\B1993.WebCom
 C:\Users\Administrator\Desktop\Bamboo\B1993.BusinessRules\obj\Debug\B1993.BusinessRules.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\Bamboo\B1993.BusinessRules\obj\Debug\B1993.BusinessRules.dll
 C:\Users\Administrator\Desktop\Bamboo\B1993.BusinessRules\obj\Debug\B1993.BusinessRules.pdb
+H:\Myproject\Freeorder\B_Food\B1993.BusinessRules\bin\Debug\B1993.BusinessRules.dll
+H:\Myproject\Freeorder\B_Food\B1993.BusinessRules\bin\Debug\B1993.BusinessRules.pdb
+H:\Myproject\Freeorder\B_Food\B1993.BusinessRules\bin\Debug\B1993.BLL.dll
+H:\Myproject\Freeorder\B_Food\B1993.BusinessRules\bin\Debug\B1993.Core.dll
+H:\Myproject\Freeorder\B_Food\B1993.BusinessRules\bin\Debug\B1993.Entity.dll
+H:\Myproject\Freeorder\B_Food\B1993.BusinessRules\bin\Debug\B1993.BLL.pdb
+H:\Myproject\Freeorder\B_Food\B1993.BusinessRules\bin\Debug\B1993.Core.pdb
+H:\Myproject\Freeorder\B_Food\B1993.BusinessRules\bin\Debug\B1993.Entity.pdb
+H:\Myproject\Freeorder\B_Food\B1993.BusinessRules\obj\Debug\B1993.BusinessRules.csprojResolveAssemblyReference.cache
+H:\Myproject\Freeorder\B_Food\B1993.BusinessRules\obj\Debug\B1993.BusinessRules.dll
+H:\Myproject\Freeorder\B_Food\B1993.BusinessRules\obj\Debug\B1993.BusinessRules.pdb

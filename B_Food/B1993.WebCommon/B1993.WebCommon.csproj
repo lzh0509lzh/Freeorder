@@ -103,13 +103,8 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="IBatisNet.Common, Version=1.4.1.0, Culture=neutral, PublicKeyToken=ed781d9fc396c6ca, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Lib\IBatisNet.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="IBatisNet.DataMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=ed781d9fc396c6ca, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Lib\IBatisNet.DataMapper.dll</HintPath>
+    <Reference Include="B1993.Core">
+      <HintPath>..\B1993.Core\bin\Debug\B1993.Core.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data, Version=6.4.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -128,10 +123,6 @@
     <Reference Include="System.Data.OracleClient">
       <Name>System.Data.OracleClient</Name>
     </Reference>
-    <Reference Include="System.Data.SQLite, Version=1.0.62.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Lib\System.Data.SQLite.DLL</HintPath>
-    </Reference>
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Services" />
@@ -140,11 +131,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfigB1993.cs" />
     <Compile Include="DataCache\CacheHelper.cs" />
+    <Compile Include="JSONUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ConfigB1993.cs" />
     <Compile Include="SQLHelper\CommandInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -178,12 +170,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <ProjectReference Include="..\B1993.Core\B1993.Core.csproj">
-      <Project>{e3d8759a-c5eb-402d-9f10-f5c6029a8d1a}</Project>
-      <Name>B1993.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>

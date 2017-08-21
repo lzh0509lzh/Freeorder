@@ -13,3 +13,12 @@ C:\Users\Administrator\Desktop\Bamboo\B1993.BLL\bin\Debug\B1993.WebCommon.pdb
 C:\Users\Administrator\Desktop\Bamboo\B1993.BLL\obj\Debug\B1993.BLL.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\Bamboo\B1993.BLL\obj\Debug\B1993.BLL.dll
 C:\Users\Administrator\Desktop\Bamboo\B1993.BLL\obj\Debug\B1993.BLL.pdb
+H:\Myproject\Freeorder\B_Food\B1993.BLL\bin\Debug\B1993.BLL.dll
+H:\Myproject\Freeorder\B_Food\B1993.BLL\bin\Debug\B1993.BLL.pdb
+H:\Myproject\Freeorder\B_Food\B1993.BLL\bin\Debug\MySql.Data.dll
+H:\Myproject\Freeorder\B_Food\B1993.BLL\bin\Debug\MySql.Data.xml
+H:\Myproject\Freeorder\B_Food\B1993.BLL\obj\Debug\B1993.BLL.dll
+H:\Myproject\Freeorder\B_Food\B1993.BLL\obj\Debug\B1993.BLL.pdb
+H:\Myproject\Freeorder\B_Food\B1993.BLL\bin\Debug\B1993.Entity.dll
+H:\Myproject\Freeorder\B_Food\B1993.BLL\bin\Debug\B1993.Entity.pdb
+H:\Myproject\Freeorder\B_Food\B1993.BLL\obj\Debug\B1993.BLL.csprojResolveAssemblyReference.cache

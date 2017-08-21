@@ -122,23 +122,9 @@
   <ItemGroup>
     <Compile Include="DataResponse\BaseResponse.cs" />
     <Compile Include="DataResponse\Response.cs" />
-    <Compile Include="managecenter\log.cs" />
-    <Compile Include="managecenter\orderlist.cs" />
-    <Compile Include="managecenter\orderrecord.cs" />
-    <Compile Include="managecenter\product_attr.cs" />
-    <Compile Include="managecenter\product_img.cs" />
-    <Compile Include="managecenter\product_info.cs" />
-    <Compile Include="managecenter\product_type.cs" />
-    <Compile Include="managecenter\product_type_and_attr.cs" />
-    <Compile Include="managecenter\shop_cart.cs" />
-    <Compile Include="managecenter\useraddress.cs" />
-    <Compile Include="managecenter\userinfo.cs" />
-    <Compile Include="managecenter\wechatuserinfo.cs" />
-    <Compile Include="managecenter\wx_requestdata.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="WeChat\JsonModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

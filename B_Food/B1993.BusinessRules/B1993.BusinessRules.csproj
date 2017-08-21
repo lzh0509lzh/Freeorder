@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="B1993.Core">
+      <HintPath>..\B1993.Core\bin\Debug\B1993.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
@@ -51,10 +54,6 @@
     <ProjectReference Include="..\B1993.BLL\B1993.BLL.csproj">
       <Project>{38d7aa58-c95b-449b-86c6-a8073a56e11f}</Project>
       <Name>B1993.BLL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\B1993.Core\B1993.Core.csproj">
-      <Project>{e3d8759a-c5eb-402d-9f10-f5c6029a8d1a}</Project>
-      <Name>B1993.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\B1993.Entity\B1993.Entity.csproj">
       <Project>{53995dbb-9836-4647-ad22-865884fdeb9e}</Project>

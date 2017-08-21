@@ -103,6 +103,9 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="B1993.Entity">
+      <HintPath>..\B1993.Entity\bin\Debug\B1993.Entity.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>E:\TSVN\Bamboo\B1993.WebCommon\bin\Debug\MySql.Data.dll</HintPath>
@@ -124,44 +127,10 @@
   <ItemGroup>
     <Compile Include="Base\BambooConfig.cs" />
     <Compile Include="Base\PrintLog.cs" />
-    <Compile Include="Base\WeChat.cs" />
-    <Compile Include="Hander.cs" />
-    <Compile Include="managecenter\log.cs" />
-    <Compile Include="managecenter\orderlist.cs" />
-    <Compile Include="managecenter\orderrecord.cs" />
-    <Compile Include="managecenter\product_attr.cs" />
-    <Compile Include="managecenter\product_img.cs" />
-    <Compile Include="managecenter\product_info.cs" />
-    <Compile Include="managecenter\product_type.cs" />
-    <Compile Include="managecenter\product_type_and_attr.cs" />
-    <Compile Include="managecenter\shop_cart.cs" />
-    <Compile Include="managecenter\useraddress.cs" />
-    <Compile Include="managecenter\userinfo.cs" />
-    <Compile Include="managecenter\wechatuserinfo.cs" />
-    <Compile Include="managecenter\wx_requestdata.cs" />
     <Compile Include="MyFunction\Myfunc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Wechat\GetToken.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\B1993.Core\B1993.Core.csproj">
-      <Project>{e3d8759a-c5eb-402d-9f10-f5c6029a8d1a}</Project>
-      <Name>B1993.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\B1993.DAL\B1993.DAL.csproj">
-      <Project>{9FE00521-3A8B-42B1-814E-585E99407B2E}</Project>
-      <Name>B1993.DAL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\B1993.Entity\B1993.Entity.csproj">
-      <Project>{53995dbb-9836-4647-ad22-865884fdeb9e}</Project>
-      <Name>B1993.Entity</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\B1993.WebCommon\B1993.WebCommon.csproj">
-      <Project>{0988c62e-247f-471f-a183-db509c7a3839}</Project>
-      <Name>B1993.WebCommon</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
