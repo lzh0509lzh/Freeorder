@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://dreamtoday.top/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://dreamtoday.top/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://dreamtoday.top/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LifeUserAuthenticationDy" type="tns:LifeUserAuthenticationDy" />
+      <s:complexType name="LifeUserAuthenticationDy">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PassWord" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AreaCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AreaCodeSelected" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MemberId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MobilePhoneNO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Latitude" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Longitude" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeviceNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeviceType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AppVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AreaListCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LoveMemberid" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="HelloWorld2">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorld2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorld2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LifeUserAuthentication" type="tns:LifeUserAuthentication" />
+      <s:complexType name="LifeUserAuthentication">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PassWord" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MemberId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MobilePhoneNO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="APIName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Latitude" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Longitude" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeviceNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeviceType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AppVersion" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="search_product">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="stateid" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PageSize" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="PageNo" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="search_productResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="search_productResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="product_type">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="stateid" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TypeName" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="PageSize" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="PageNo" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="product_typeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="product_typeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getproductinfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="code" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getproductinfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getproductinfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getChangeProduct">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="stateid" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="TypeString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getChangeProductResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getChangeProductResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJSconfig">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="url" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJSconfigResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetJSconfigResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldLifeUserAuthenticationDy">
+    <wsdl:part name="LifeUserAuthenticationDy" element="tns:LifeUserAuthenticationDy" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorld2SoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld2" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorld2SoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorld2Response" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorld2LifeUserAuthentication">
+    <wsdl:part name="LifeUserAuthentication" element="tns:LifeUserAuthentication" />
+  </wsdl:message>
+  <wsdl:message name="search_productSoapIn">
+    <wsdl:part name="parameters" element="tns:search_product" />
+  </wsdl:message>
+  <wsdl:message name="search_productSoapOut">
+    <wsdl:part name="parameters" element="tns:search_productResponse" />
+  </wsdl:message>
+  <wsdl:message name="search_productLifeUserAuthentication">
+    <wsdl:part name="LifeUserAuthentication" element="tns:LifeUserAuthentication" />
+  </wsdl:message>
+  <wsdl:message name="product_typeSoapIn">
+    <wsdl:part name="parameters" element="tns:product_type" />
+  </wsdl:message>
+  <wsdl:message name="product_typeSoapOut">
+    <wsdl:part name="parameters" element="tns:product_typeResponse" />
+  </wsdl:message>
+  <wsdl:message name="product_typeLifeUserAuthentication">
+    <wsdl:part name="LifeUserAuthentication" element="tns:LifeUserAuthentication" />
+  </wsdl:message>
+  <wsdl:message name="getproductinfoSoapIn">
+    <wsdl:part name="parameters" element="tns:getproductinfo" />
+  </wsdl:message>
+  <wsdl:message name="getproductinfoSoapOut">
+    <wsdl:part name="parameters" element="tns:getproductinfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getproductinfoLifeUserAuthentication">
+    <wsdl:part name="LifeUserAuthentication" element="tns:LifeUserAuthentication" />
+  </wsdl:message>
+  <wsdl:message name="getChangeProductSoapIn">
+    <wsdl:part name="parameters" element="tns:getChangeProduct" />
+  </wsdl:message>
+  <wsdl:message name="getChangeProductSoapOut">
+    <wsdl:part name="parameters" element="tns:getChangeProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="getChangeProductLifeUserAuthentication">
+    <wsdl:part name="LifeUserAuthentication" element="tns:LifeUserAuthentication" />
+  </wsdl:message>
+  <wsdl:message name="GetJSconfigSoapIn">
+    <wsdl:part name="parameters" element="tns:GetJSconfig" />
+  </wsdl:message>
+  <wsdl:message name="GetJSconfigSoapOut">
+    <wsdl:part name="parameters" element="tns:GetJSconfigResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetJSconfigLifeUserAuthentication">
+    <wsdl:part name="LifeUserAuthentication" element="tns:LifeUserAuthentication" />
+  </wsdl:message>
+  <wsdl:portType name="sWebBambooSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="HelloWorld2">
+      <wsdl:input message="tns:HelloWorld2SoapIn" />
+      <wsdl:output message="tns:HelloWorld2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="search_product">
+      <wsdl:input message="tns:search_productSoapIn" />
+      <wsdl:output message="tns:search_productSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="product_type">
+      <wsdl:input message="tns:product_typeSoapIn" />
+      <wsdl:output message="tns:product_typeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getproductinfo">
+      <wsdl:input message="tns:getproductinfoSoapIn" />
+      <wsdl:output message="tns:getproductinfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getChangeProduct">
+      <wsdl:input message="tns:getChangeProductSoapIn" />
+      <wsdl:output message="tns:getChangeProductSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetJSconfig">
+      <wsdl:input message="tns:GetJSconfigSoapIn" />
+      <wsdl:output message="tns:GetJSconfigSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="sWebBambooSoap" type="tns:sWebBambooSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://dreamtoday.top/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:HelloWorldLifeUserAuthenticationDy" part="LifeUserAuthenticationDy" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HelloWorld2">
+      <soap:operation soapAction="http://dreamtoday.top/HelloWorld2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:HelloWorld2LifeUserAuthentication" part="LifeUserAuthentication" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="search_product">
+      <soap:operation soapAction="http://dreamtoday.top/search_product" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:search_productLifeUserAuthentication" part="LifeUserAuthentication" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="product_type">
+      <soap:operation soapAction="http://dreamtoday.top/product_type" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:product_typeLifeUserAuthentication" part="LifeUserAuthentication" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getproductinfo">
+      <soap:operation soapAction="http://dreamtoday.top/getproductinfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:getproductinfoLifeUserAuthentication" part="LifeUserAuthentication" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChangeProduct">
+      <soap:operation soapAction="http://dreamtoday.top/getChangeProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:getChangeProductLifeUserAuthentication" part="LifeUserAuthentication" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJSconfig">
+      <soap:operation soapAction="http://dreamtoday.top/GetJSconfig" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetJSconfigLifeUserAuthentication" part="LifeUserAuthentication" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="sWebBambooSoap12" type="tns:sWebBambooSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://dreamtoday.top/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:HelloWorldLifeUserAuthenticationDy" part="LifeUserAuthenticationDy" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HelloWorld2">
+      <soap12:operation soapAction="http://dreamtoday.top/HelloWorld2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:HelloWorld2LifeUserAuthentication" part="LifeUserAuthentication" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="search_product">
+      <soap12:operation soapAction="http://dreamtoday.top/search_product" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:search_productLifeUserAuthentication" part="LifeUserAuthentication" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="product_type">
+      <soap12:operation soapAction="http://dreamtoday.top/product_type" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:product_typeLifeUserAuthentication" part="LifeUserAuthentication" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getproductinfo">
+      <soap12:operation soapAction="http://dreamtoday.top/getproductinfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:getproductinfoLifeUserAuthentication" part="LifeUserAuthentication" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChangeProduct">
+      <soap12:operation soapAction="http://dreamtoday.top/getChangeProduct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:getChangeProductLifeUserAuthentication" part="LifeUserAuthentication" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJSconfig">
+      <soap12:operation soapAction="http://dreamtoday.top/GetJSconfig" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetJSconfigLifeUserAuthentication" part="LifeUserAuthentication" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="sWebBamboo">
+    <wsdl:port name="sWebBambooSoap" binding="tns:sWebBambooSoap">
+      <soap:address location="http://localhost:3448/webService/sWebBamboo.asmx" />
+    </wsdl:port>
+    <wsdl:port name="sWebBambooSoap12" binding="tns:sWebBambooSoap12">
+      <soap12:address location="http://localhost:3448/webService/sWebBamboo.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>购物车</title>
+	<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="../../css/swiper.min.css"/>
+	<script type="text/javascript">
+		function setFontSize(){
+		        document.documentElement.style.fontSize=window.innerWidth/37.5+'px';
+		    }
+		    setFontSize();
+		    window.addEventListener('resize',function(){
+		        setFontSize();
+		});
+	</script>
+</head>
+<body>
+	<div class="car-bianji">编辑</div>
+	<section class="car-list">
+		<div class="mal-change layout-tr">
+				<div>
+					<i class="malc-defult"><img src="../../imgs/dui_03.png" width="10"  height="10"/></i>
+				</div>
+				<div class="carshop-img">
+					<img src="../../imgs/lingshi.png" width="100%"/>
+				</div>
+				<div class="carshop-con layout-td">
+					<p>Childlife 钙镁锌成长营养液</p>
+					<p>产品分类：套装1</p>
+					<p class="layout-tr">
+						<span class="layout-td" style="color: #f6693e;">￥608</span>
+						<span>x1</span>
+					</p>
+				</div>
+			</div>
+	</section>
+	<section class="car-list">
+		<div class="mal-change layout-tr">
+			<div>
+				<i class="malc-defult"><img src="../../imgs/dui_03.png" width="10"  height="10"/></i>
+			</div>
+			<div class="carshop-img" style="">
+				<img src="../../imgs/lingshi.png" width="100%"/>
+			</div>
+			<div class="carshop-con layout-td">
+				<div class="up-down">
+					<span>-</span>
+					<span>1</span>
+					<span>+</span>
+				</div>
+				<div class="layout-tr">
+					产品分类：<select>
+						<option>套餐一</option>
+						<option>套餐er</option>
+					</select>
+					<img src="../../imgs/down_03.png" width="13" height="7"/>
+				</div>
+			</div>
+			<div class="car-delate">删除</div>
+		</div>
+	</section>
+	<section class="car-all">
+		<div class="mal-change layout-tr">
+				<div class="layout-td">
+					<i class="malc-defult"></i>
+					<span>全选</span>
+				</div>
+				<div>
+					合计：<span>￥608</span>
+				</div>
+				<div class="car-pay">
+					结算
+				</div>
+			</div>
+	</section>
+	<footer class="my-foot">
+		<ul class="layout-tr">
+			<li class="layout-td">
+				<a href="../../index.html">
+				<img src="../../imgs/tab1.png" width="21" height="20"/>
+				<p>首页</p></a>
+			</li>
+			<li class="layout-td foot-active">
+				<img src="../../imgs/tab2-check.png" width="20.5" height="20"/>
+				<span>购物车</span>
+			</li>
+			<li class="layout-td">
+				<a href="adress.html">
+				<img src="../../imgs/tab3.png" width="17.5" height="20"/>
+				<span>我的</span></a>
+			</li>
+		</ul>
+	</footer>
+	<script src="../../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	
+</body>
+</html>

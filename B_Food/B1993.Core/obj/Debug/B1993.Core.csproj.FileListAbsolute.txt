@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\Bamboo\B1993.Core\bin\Debug\B1993.Core.dll
+C:\Users\Administrator\Desktop\Bamboo\B1993.Core\bin\Debug\B1993.Core.pdb
+C:\Users\Administrator\Desktop\Bamboo\B1993.Core\obj\Debug\B1993.Core.dll
+C:\Users\Administrator\Desktop\Bamboo\B1993.Core\obj\Debug\B1993.Core.pdb

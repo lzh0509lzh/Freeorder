@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\Bamboo\B1993.Entity\bin\Debug\B1993.Entity.dll
+C:\Users\Administrator\Desktop\Bamboo\B1993.Entity\bin\Debug\B1993.Entity.pdb
+C:\Users\Administrator\Desktop\Bamboo\B1993.Entity\obj\Debug\B1993.Entity.dll
+C:\Users\Administrator\Desktop\Bamboo\B1993.Entity\obj\Debug\B1993.Entity.pdb
