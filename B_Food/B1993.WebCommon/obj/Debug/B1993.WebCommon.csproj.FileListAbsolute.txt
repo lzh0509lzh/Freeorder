@@ -1,9 +1,0 @@
-H:\Myproject\Freeorder\B_Food\B1993.WebCommon\bin\Debug\B1993.WebCommon.dll
-H:\Myproject\Freeorder\B_Food\B1993.WebCommon\bin\Debug\B1993.WebCommon.pdb
-H:\Myproject\Freeorder\B_Food\B1993.WebCommon\bin\Debug\MySql.Data.dll
-H:\Myproject\Freeorder\B_Food\B1993.WebCommon\bin\Debug\MySql.Data.xml
-H:\Myproject\Freeorder\B_Food\B1993.WebCommon\obj\Debug\B1993.WebCommon.csprojResolveAssemblyReference.cache
-H:\Myproject\Freeorder\B_Food\B1993.WebCommon\obj\Debug\B1993.WebCommon.dll
-H:\Myproject\Freeorder\B_Food\B1993.WebCommon\obj\Debug\B1993.WebCommon.pdb
-H:\Myproject\Freeorder\B_Food\B1993.WebCommon\bin\Debug\B1993.Core.dll
-H:\Myproject\Freeorder\B_Food\B1993.WebCommon\bin\Debug\B1993.Core.pdb
